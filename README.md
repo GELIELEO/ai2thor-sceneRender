@@ -24,4 +24,8 @@ Once one has created the object, it is as simple as calling the method ```scene_
 
 ```python
 scene1.scene_render()
-``
+```
+
+## More details
+This project only offers the code to render new scenes of the virtual environment AI2THOR. In order to visualize the output obtained from this code, I would encourage you to visit the following repository:
+(https://github.com/caomw/icra2017-visual-navigation-1)
