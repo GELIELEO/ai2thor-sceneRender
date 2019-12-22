@@ -5,7 +5,8 @@ The offered code gives a solution to discrete navigation.
 
 ## How to use it
 The python file ```ai2thor_scene_render.py``` consists on a class to create all the information needed to perform a discrete navigation within AI2THOR environment.
-In sort, all we need to do in order to create the render of a new 
+In sort, all we need to do in order to create the render of a new scene is to create an object of the class ```ai2thor_scene_render()```, as it is shown in the following piece of code:
+
 ```python
 scene1  = ai2thor_scene_render(
         scene_name='FloorPlan28',
@@ -13,3 +14,10 @@ scene1  = ai2thor_scene_render(
         gridSize=0.25
     )
 ```
+It is highlighted three parameters:
+
+* scene_name : It is the name of the scene wished to be rendered.
+* hdf5_name : Name of the output name.
+* gridSize : This number corresponds to the size of the grid, i.e how much the agent will move within the scene.
+
+
