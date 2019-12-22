@@ -1,0 +1,3 @@
+ai2thor
+numpy
+h5py
