@@ -27,5 +27,4 @@ scene1.scene_render()
 ```
 
 ## More details
-This project only offers the code to render new scenes of the virtual environment AI2THOR. In order to visualize the output obtained from this code, I would encourage you to visit the following repository:
-(https://github.com/caomw/icra2017-visual-navigation-1)
+This project only offers the code to render new scenes of the virtual environment AI2THOR. In order to visualize the output obtained from this code, I would encourage you to visit the following repository: (https://github.com/caomw/icra2017-visual-navigation-1). Here is explained in deep detail the concept of discrete navigation as the corresponding files to visualize a scene.
