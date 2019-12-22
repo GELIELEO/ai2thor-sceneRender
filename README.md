@@ -20,4 +20,8 @@ It is highlighted three parameters:
 * hdf5_name : Name of the output name.
 * gridSize : This number corresponds to the size of the grid, i.e how much the agent will move within the scene.
 
+Once one has created the object, it is as simple as calling the method ```scene_render()``` of the created object to render the new scene. The following code shows an example of how could be done:
 
+```python
+scene1.scene_render()
+``
