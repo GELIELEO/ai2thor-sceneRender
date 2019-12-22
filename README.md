@@ -3,6 +3,11 @@ This repository offers a solution to render a scene of the AI2THOR virtual navig
 The main objective of this project is to offer an solution to the users that want to render scenes of the virtual environment AI2THOR.
 The offered code gives a solution to discrete navigation. 
 
+## Setup
+
+This code is implemented using AI2THOR virtual envirment package. To install all the dependencies use the following command: ```pip install -r requirements.txt```.
+If any error occured during AI2THOR installation, please refer to the following link: https://ai2thor.allenai.org
+
 ## How to use it
 The python file ```ai2thor_scene_render.py``` consists on a class to create all the information needed to perform a discrete navigation within AI2THOR environment.
 In sort, all we need to do in order to create the render of a new scene is to create an object of the class ```ai2thor_scene_render()```, as it is shown in the following piece of code:
